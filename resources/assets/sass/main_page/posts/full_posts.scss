@@ -1,0 +1,16 @@
+@charset 'UTF-8';
+
+@import
+'resources/assets/sass/abstracts/_variables',
+'resources/assets/sass/abstracts/_functions',
+'resources/assets/sass/abstracts/_mixins';
+
+@import
+'resources/assets/sass/layout/footer';
+
+// 5. Components
+@import
+'resources/assets/sass/components/pagination/pagination.scss'
+;
+
+

@@ -1,0 +1,46 @@
+$la-font-path: "../fonts" !default;
+$la-font-size-base: 16px !default;
+$la-line-height-base: 1 !default;
+$la-css-prefix: la !default;
+$la-border-color: #eee !default;
+$la-inverse: #fff !default;
+$la-li-width: (20em / 16) !default;
+$la-font-name: "LineAwesome" !default;
+$la-version: "1.1.";
+
+@function la-content($la-var) {
+    @return unquote("\"#{ $la-var }\"");
+  }
+
+$la-arrow-down: \f11f;
+$la-envelope: \f1c6;
+$la-search: \f2eb;
+$la-user: \f364;
+$la-heart-o: \f234;
+$la-paper-plane: \f2a8;
+$la-long-arrow-left: \f273;
+$la-long-arrow-right: \f274;
+$la-star: \f318;
+$la-plus: \f2c2;
+$la-map-marker: \f27d;
+$la-phone: \f2b3;
+$la-keyboard-o: \f256;
+$la-unlink: \f35f;
+$la-angle-down: \f110;
+$la-file-text: \f1ec;
+$la-briefcase: \f151;
+$la-area-chart: \f116;
+$la-edit: \f1c1;
+$la-list-ul: \f26f;
+$la-graduation-cap: \f21e;
+$la-lock: \f271;
+$la-sign-out: \f2fc;
+$la-pencil-square: \f2b1;
+$la-heart: \f233;
+$la-close: \f191;
+$la-money: \f294;
+$la-key: \f255;
+$la-home: \f237;
+$la-times: \f342;
+$la-newspaper-o: \f29c;
+$la-star-o: \f31b;

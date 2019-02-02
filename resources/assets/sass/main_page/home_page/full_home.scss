@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+
+@import
+'resources/assets/sass/abstracts/_variables',
+'resources/assets/sass/abstracts/_functions',
+'resources/assets/sass/abstracts/_mixins';
+
+@import
+'resources/assets/sass/layout/footer';
+
+// 5. Components
+@import
+'resources/assets/sass/components/home_page/form_search_banner/form_search_banner_suggest.scss',
+'resources/assets/sass/components/popup/popup_reg_sign.scss',
+'resources/assets/sass/components/home_page/job_box/job_box_home.scss',
+'resources/assets/sass/components/home_page/job_box/job_box.scss',
+'resources/assets/sass/components/home_page/career_category/career_category.scss',
+'resources/assets/sass/components/profile/profile_full_insight.scss';
+

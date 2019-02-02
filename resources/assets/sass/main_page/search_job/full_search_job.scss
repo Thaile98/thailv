@@ -1,0 +1,20 @@
+@charset 'UTF-8';
+
+@import
+'resources/assets/sass/abstracts/_variables',
+'resources/assets/sass/abstracts/_functions',
+'resources/assets/sass/abstracts/_mixins';
+
+@import
+'resources/assets/sass/layout/footer';
+
+// 5. Components
+@import
+'resources/assets/sass/components/search_job/job_item_search/job_item_animation.scss',
+'resources/assets/sass/components/search_job/form_search_header/form_search_suggest.scss',
+'resources/assets/sass/components/profile/profile_full_insight.scss',
+'resources/assets/sass/components/search_job/search_job_animation/search_job_animation.scss',
+'resources/assets/sass/components/pagination/pagination.scss'
+;
+
+

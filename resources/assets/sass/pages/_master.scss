@@ -1,0 +1,180 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
+    padding: 0;
+}
+.mb0 {
+    margin-bottom: 0px!important;
+}
+.mb5 {
+    margin-bottom: 5px!important;
+}
+.mt20 {
+    margin-top: 20px!important;
+}
+.mb10 {
+    margin-bottom: 10px!important;
+}
+.ml0 {
+    margin-left: 0!important;
+}
+.mt10 {
+    margin-top: 10px!important;
+}
+.ml15 {
+    margin-left: 15px!important;
+}
+.w-30 {
+    width: 30%!important;
+}
+.w-70 {
+    width: 70%!important;
+}
+.mb145 {
+    margin-bottom: 145px!important;
+}
+.fs-28 {
+    font-size: 28px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.text-sm {
+    font-size: 13px!important;
+}
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+@media (min-width: 1200px) {
+    .container {
+        padding: 0;
+        max-width: 1170px!important;
+    }
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $white-grey-1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $grey-1; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $dark-grey-1; 
+}
+.no-gape {
+  margin: 0 !important;
+}
+.tt-menu {
+    display: none;
+}
+.show{
+  display: block!important;
+}
+.hide{
+  display: none!important;
+}
+.no-padding {
+    padding: 0!important;
+}
+.block {
+    float: left;
+    padding: 0 0 60px 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.overlape {
+    z-index: 2;
+}
+section {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.text-collapse {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.card-no-radius {
+    border-radius: 0!important;
+}
+.card {
+    background: $white none repeat scroll 0 0;
+    border: 0 solid #e7e7e7;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+}
+.card-title {
+    clear: both;
+    color: $pink;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.card-body {
+    background: $white;
+    padding: 0;
+    i {
+        display: inline-block;
+        cursor: pointer;
+    }
+}
+.card__box {
+    margin-bottom: 20px;
+    width: 100%;
+    ul {
+        margin-bottom: 10px;
+        li {
+            color: #666;
+            font-size: 14px;
+            font-weight: 400!important;
+            margin: 0;
+        }
+    }
+}
+.card__box-content {
+    color: #666;
+    line-height: 25px;
+}
+.card-body h3, .card-title h3 {
+    font-size: 18px;
+    font-weight: 700!important;
+}
+.parallax {
+    background-size: cover!important;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.parallax.no-parallax {
+    background-attachment: scroll!important;
+    background-position: inherit!important;
+}   
+

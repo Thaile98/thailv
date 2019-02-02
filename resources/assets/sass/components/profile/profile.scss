@@ -1,0 +1,74 @@
+.profile__header {
+    position: absolute;
+    right: 0px;
+	&-btn-dropdown {
+		float:right;
+		position:relative;
+		span {
+			float:right;
+			color:$white-1;
+
+			font-size:14px;
+			line-height:50px;
+			cursor:pointer;
+			i {
+				float:right;
+				line-height:50px;
+				font-size:10px;
+				margin-left:13px;
+			}
+			img {
+				margin-right:5px;
+				border: 2px solid $white-1;
+				height: 45px;
+				width: 45px;
+				float: left;
+				border-radius: 50%;
+			}
+			.profile_header-user-name {
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				float: right;
+				max-width: 70px;
+			}
+		}
+		ul {
+			display:none;
+		}
+	}
+    .wishlist__dropsec {
+	    margin-left: 5px!important;
+	    margin-right: 5px!important;
+	    float: right;
+	    position: relative;
+	    .favorite {
+	    	margin-top: 0;
+		    width: 45px;
+		    height: 45px;
+		    float: left;
+	        border: 2px solid $white-1;
+	        border-radius: 50%;
+	        text-align: center;
+	        line-height: 42px;
+	        color: $white-1;
+	        position: relative;
+	        cursor: pointer;
+	        strong {
+	            position: absolute;
+	            right: -1px;
+	            top: -5px;
+	            font-size: 10px;
+	            font-weight: 400;
+	            background: $blue-grey-3;
+	            height: 16px;
+	            line-height: 16px;
+	            width: 16px;
+	            border-radius: 50%;
+	        }
+		}
+		&-dropdown{
+			display: none;
+		}
+	}
+}

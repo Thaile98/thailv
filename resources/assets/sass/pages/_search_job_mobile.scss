@@ -1,0 +1,126 @@
+.overlape {
+    z-index: 2;
+}
+.active-overlape {
+    display: block!important;
+    position: fixed;
+    top: -53px;
+    z-index: 999999999!important;
+    animation: mymoveFormSearchMb .3s;
+    animation-iteration-count: 1;
+    background: #fff;
+}
+.inner-header {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding-top: 240px;
+    padding-bottom: 0;
+    z-index: 0;
+    .job-search-sec {
+        position: relative;
+        float: left;
+        z-index: 4;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        content: "";
+        .job-search {
+            float: left;
+            width: 100%;
+            padding: 0;
+            margin-bottom: 25px;
+            form {
+                margin-top: 0;
+                float: left;
+				width: 100%;
+				.job-field {
+				    float: left;
+				    width: 100%;
+				    position: relative;
+				}
+            }
+        }
+    }
+}
+.inner-header::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background: $blue-grey-3;
+    background: linear-gradient(45deg,rgba(139,145,221,1) 0,rgba(16,25,93,1) 71%,rgba(16,25,93,1) 100%);
+    opacity: .8;
+}
+.inner-header::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: url(/uploads/lines.png);
+    z-index: 0;
+    opacity: .14;
+}
+
+#close_form_search {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    .btn-close-side-right {
+        background: #868cd6;
+        border-radius: 0 0 0 40px;
+        color: #fff;
+        display: block;
+        height: 40px;
+        padding: 10px 0 10px 15px;
+        width: 40px;
+    }
+}
+.job__list-total-select {
+	margin-bottom: 10px;
+    padding: 0;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid $white-grey-2;
+    .total__select-filterbar {
+	    float: left;
+	    width: 100%;
+	    h5 {
+	    	float: left;
+		    margin: 0;
+		    display: inline;
+		    width: 48%!important;
+		    margin-top: 0!important;
+		    font-size: 14px!important;
+		    font-weight: 400!important;
+		    color: $dark-grey-3;
+		    line-height: 33px;
+		    b {
+		        font-weight: 700;
+		        color: $pink;
+		    }
+		}
+		.filterbar-right {
+		    float:  right;
+			a.active_nav {
+			    color: $pink!important;
+			    font-weight: 700;
+			}
+			b {
+			    font-weight: 700;
+			}
+			a {
+			    line-height: 33px;
+			    font-size: 14px;
+			    color: $dark-grey-1;
+			}
+		}
+
+	}
+}

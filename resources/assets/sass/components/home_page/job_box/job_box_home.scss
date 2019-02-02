@@ -1,0 +1,40 @@
+.job__box-item {
+	margin-bottom: 10px;
+	.job__box-item-thumb {
+		width: 18%;
+		img {
+		    height: 60px;
+		    width: 100px;
+		    object-fit: contain;
+		    object-position: center center;
+		}
+	}
+	.job__box-item-content {
+		padding-top: 10px;
+		width: 75%;
+		.job__box-item-title {
+		    font-size: 18px;
+		    margin-bottom: 5px;
+		    a {
+		    	color: $dark-3;
+			}
+		}
+		.job__box-item-company {
+			font-size: 13px;
+		}
+	}
+	.job__box-item-extra {
+		width: 7%;
+		margin-top: 0.7rem;
+		span {
+			background: #FD7C7D;
+		    padding: 1px 4px;
+		    border: 1px solid red;
+		    color: #FFF;
+		    border-radius: 3px;
+		}
+	}
+}
+.job__box-item:not(:last-child) {
+    border-bottom: 1px solid #e8ecec;
+}

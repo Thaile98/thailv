@@ -1,0 +1,42 @@
+@import url('master.css');
+@import url('logo.css');
+@import url('form-search-header.css');
+@import url('profile.css');
+@import url('widget.css');
+header {
+	z-index:3;
+	position:relative
+}
+#header-search-job {
+	position:fixed;
+	top:0;
+	background:#4a4e8a;
+	padding-bottom:6px
+}
+#header-search-job .menu-sec {
+    margin-top: 15px;
+}
+#header-search-job .menu-sec .container {
+	max-width: 1170px;
+}
+
+aside .widget.border {
+	margin-top:10px
+}
+
+.box-mobile-sidebar .side-left {
+	background:rgba(0,
+	0,
+	0,
+	.4);
+	height:100%;
+	position:fixed;
+	width:80vw;
+	z-index:100
+}
+.box-mobile-sidebar .side-left {
+	left:-820px;
+	-webkit-transition:left .3s ease;
+	transition:left .3s ease
+}
+

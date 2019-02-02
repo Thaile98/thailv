@@ -1,0 +1,16 @@
+{
+    "name": "Employer",
+    "alias": "employer",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Employer\\Providers\\EmployerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

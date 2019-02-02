@@ -1,0 +1,64 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.post-job-btn {
+    line-height: 1.2;
+    float: left;
+    font-size: 14px;
+    color: $white-1;
+    padding: 13px 27px;
+    margin: 0 5px;
+    border-radius: 23px;
+    letter-spacing: .3px;
+    background-color: $pink;
+    border: 2px solid $pink;
+    transition: all .4s ease 0s;
+    i {
+        float: left;
+        margin-right: 6px;
+        font-size: 15px;
+        margin-top: 2px;
+    }
+}
+.post-job-btn:hover {
+	background: 0 0;
+    border: 2px solid $pink;
+    color: $white-1;
+}
+button {
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn {
+    letter-spacing: 0;
+    outline: 0!important;
+    border: 2px solid transparent;
+    border-radius: 60px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    text-align: center;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    vertical-align: middle;
+    white-space: nowrap;
+} 
+.btn-pink {
+    background: $pink;
+    color: $white-1;
+    border: 2px solid transparent;
+}
+.btn-white {
+    background: $white-1;
+    color: $pink;
+    border: 2px solid $pink !important;
+}
+.btn-pink:hover {
+    background: $white-1!important;
+    border: 2px solid $pink !important;
+    color: $pink !important;
+}
+.btn:not(:first-child) {
+    margin-left: 5px;
+}

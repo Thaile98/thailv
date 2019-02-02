@@ -1,0 +1,260 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+#header {
+	position: absolute;
+    top: 0;
+	left: 0;
+	width: 100%;
+    z-index: 12;
+	.menu-header {
+	    margin-top: 30px;
+	    margin-bottom: 3px;
+	    .logo {
+	        margin: 6px 0;
+	    }
+	}
+}
+a {
+	color: $xanh-den;
+}
+#close_form_search {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    display: none;
+}
+.block {
+    padding: 60px 0!important;
+    .main-featured-sec {
+    	line-height: 1.2;
+        float: left;
+        width: 100%;
+        z-index: 1;
+        .main-slider-sec {
+            float: left;
+            width: 100%;
+            position: relative;
+            z-index: 0;
+            margin: 0;
+            background: $blue-dam;
+            list-style: outside none none;
+            .slideHome {
+            	color: $dark-2;
+        	    position: relative;
+                height: 700px!important;
+                img {
+                	float: left;
+            	    width: 100%;
+            	    opacity: .8;
+                }
+            }
+        }
+        .main-slider-sec::before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            content: "";
+            z-index: 1;
+            background: $blue-grey-3;
+            background: linear-gradient(45deg,rgba(139,145,221,1) 0,rgba(16,25,93,1) 71%,rgba(16,25,93,1) 100%);
+            opacity: .8;
+        }
+        .main-slider-sec::after {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            content: "";
+            background-image: url(/uploads/lines.png);
+            z-index: 3;
+            opacity: .1;
+        }
+        .job-search-sec {
+            position: absolute;
+            left: 50%;
+            top: 44.1%;
+            width: 1000px;
+            content: "";
+            transform: translateY(-50%) translateX(-50%);
+            margin-top: 0;
+            .job-search {
+
+                float: left;
+                width: 100%;
+                padding: 15px 0 0 0;
+                margin-bottom: 25px;
+                h1 {
+                    font-size: 50px;
+                    text-align: center;
+                    color: $white-1;
+                    margin-bottom: 20px;
+                }
+                span {
+                    float: left;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #d5d8f3;
+                    margin-top: 10px;
+                }
+                .input-keyword-home {
+                    width: 60%;
+                    text-align: left;
+                    margin-bottom: 15px;
+                }
+                .input-address-home {
+				    width: 40%;
+				    text-align: left;
+				}
+				.home__search-extra {
+				    clear: both;
+				    text-align: center;
+				    padding-top: 25px;
+				    a {
+				        font-size: 16px;
+				        color: $white-1;
+				        font-weight: 700;
+				        text-decoration: underline;
+				    }
+				    span {
+				    	float: none;
+				        color: $white-1;
+				        font-weight: 400;
+				    }
+				    .home__search-extra-employer {
+				        padding-top: 10px;
+				    }
+				}
+            }
+        }
+        .scroll-to {
+            float: left;
+            text-align: center;
+            width: 130px;
+            height: 130px;
+            border: 2px solid $white-1;
+            margin-top: -65px;
+            z-index: 22;
+            position: relative;
+            border-radius: 50%;
+            left: 50%;
+            margin-left: -65px;
+            transition: all .4s ease 0s;
+            a {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                width: 60px;
+                height: 60px;
+                margin-left: -30px;
+                margin-top: -30px;
+                background: $white-1;
+                border-radius: 50%;
+                box-shadow: 0 10px 30px rgba(0,0,0,.1);
+                line-height: 60px;
+                font-size: 30px;
+                color: $pink;
+                transition: all .4s ease 0s;
+                i {
+                	transition: all .8s ease 0s;
+                }
+            }
+        }
+        .scroll-to:hover {
+            border-color: $pink;
+            a {
+                background: $pink;
+                color: $white-1;
+            }
+        }
+    }
+    .heading {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+        h2 {
+            width: 100%;
+            margin: 0;
+            font-size: 30px;
+            color: $dark-1;
+            line-height: 23px;
+        }
+    }
+    .tab__title {
+        float: left;
+        width: 100%;
+        text-align: center;
+        &-list {
+            &-item {
+                display: inline-block;
+                a {
+                    color: $dark-grey-1;
+                    display: inline-flex;
+                    width: 212px;
+                    height: 30px;
+                    justify-content: center;
+                    border-bottom: 2px solid $grey-3;
+                    transition: color 0.3s;
+                    h3 {
+                        font-size: 18px;
+                    }
+                }
+                a:hover {
+                    border-bottom-color: $pink;
+                    color: $pink;
+                }
+            }
+            li.active a {
+                border-bottom-color: $pink;
+                color: $dark-3;
+            }
+        }
+    }
+    .cat-sec {
+        float: left;
+        width: 100%;
+        div {
+        	padding: 0;
+        }
+    }
+    .cat-sec:last-child a {
+        border-bottom-color: $white-1;
+    }
+}
+#job-list-link {
+    margin-bottom: 60px;
+    .job__category {
+        &-list {
+            a {
+                color: #555;
+            }
+            h5 {
+                text-transform: uppercase;
+                font-size: 15px;
+                font-weight: 700;
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+            &-link {
+                .list-group {
+                    padding: 0;
+                    margin: 0;
+                    .list-group-item {
+                        font-size: 14px;
+                        display: inline-block;
+                        list-style-type: none;
+                        margin-bottom: 2px;
+                        padding: 0;
+                        background-color: transparent;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}

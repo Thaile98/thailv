@@ -1,0 +1,172 @@
+/*  SCSS Popup */
+.account-popup-area {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(73, 82, 152, 0.5);
+    opacity: 1;
+    z-index: 99;
+    overflow-Y: scroll;
+    display: none;
+    line-height: 1;
+    .account-box {
+        background: $white-1;
+        border-radius: 10px;
+        box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.54);
+        float: unset;
+        padding: 30px 35px;
+        text-align: left;
+        top: 30px;
+        width: 420px;
+    }
+    .account-popup {
+        position: relative;
+        z-index: 1;
+        margin-top: 80px;
+        margin-bottom: 60px;
+        left: 50%;
+        transform: translate(-50%,0);
+        .close-popup {
+            position: absolute;
+            top: -20px;
+            width: 50px;
+            height: 50px;
+            float: none;
+            margin: 0;
+            right: -20px;
+            text-align: center;
+            line-height: 50px;
+            color: $white-1;
+            font-size: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+            background-color: $pink;
+        }
+
+    }
+}
+/* SCSS Form */
+form.popup-login {
+    float: unset;
+    margin-top: 0!important;
+    width: 100%;
+    h3 {
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .cfield {
+        width: 100%;
+        position: relative;
+        float: unset;
+        border: 0!important;
+        margin-bottom: 0!important;
+        margin-top: 10px;
+        text-align: left;
+        input {
+            float: left;
+            width: 100%;
+            background: no-repeat;
+            border: 2px solid #cccccc;
+            font-size: 14px!important;
+            line-height: 20px;
+            margin: 5px 0!important;
+            padding: 10px 15px!important;
+            font-weight: 400;
+            outline: none;
+        }
+        .error-form {
+            color: red;
+            font-size: 12px;
+        }
+    }
+    .account-box__link {
+        line-height: normal;
+        margin-top: 20px;
+        a {
+            font-weight: bold;
+            font-size: 14px;
+            color: #F72A6D;
+        }
+    }
+
+    .button-submit-form {
+        width: 100%;
+        height: 45px;
+        float: left;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        background-color: #495298;
+        padding: 8px 30px;
+        color: $white-1;
+        border: 0;
+        outline: none;
+        transition: all .4s ease 0s;
+    }
+    .button-submit-form:hover {
+        background: #F72A6D;
+    }
+    .mxh {
+        color: #666666;
+        width: 111px;
+        font-size: 14px;
+        height: 17px;
+        position: absolute;
+        top: 8px;
+        left: 35%;
+        background: #fff;
+        text-align: center;
+    }
+    .sign-in-social {
+        margin: 13px 0 25px 0;
+        .btn-signin-facebook,.btn-signin-google {
+            width: 48%;
+            height: 40px;
+            font-size: 12px;
+            color: $white-1;
+            border: 0;
+            outline: none;
+            transition: all .4s ease 0s;
+        }
+        .btn-signin-facebook {
+            background-color: #495298;
+            float: left;
+        }
+        .btn-signin-facebook:hover {
+            background-color: #F72A6D;
+        }
+        .btn-signin-google {
+            background-color: #F72A6D;
+            float: right;
+        }
+        .btn-signin-google:hover {
+            background-color: #495298;
+        }
+        
+    }
+    .text-form-footer {
+        font-size: 13px;
+        line-height: 1.6;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        a {
+            color: #2F80ED;
+        }
+    }
+    .text-form-header {
+        margin: 0; 
+        font-size: 14px;
+        line-height: 1.6;
+        font-weight: 600;
+    }
+    .text-pink {
+            font-weight: bold;
+            font-size: 14px;
+            color: #F72A6D!important;
+        }
+}

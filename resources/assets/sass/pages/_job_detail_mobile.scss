@@ -1,0 +1,107 @@
+h4 a:hover {
+    color: $pink;
+}
+.job_detail {
+    height: auto;
+    h4 {
+        font-size: 14px;
+        line-height: 1.5rem;
+        margin: 10px 0;
+    }
+    .btn {
+        margin: 0 5px;
+    }
+    .job-header {
+        background: $blue-vio;
+        padding: 7px 10px;
+        .job-header-logo img {
+            height: 30px;
+            width: auto;
+        }
+    }
+    .job-back {
+        bottom: 100px;
+        position: fixed;
+        right: 0;
+        a {
+            color: $white-1;
+            display: block;
+            height: 30px;
+            margin-bottom: 5px;
+            padding: 5px;
+            text-align: center;
+            width: 30px;
+            i {
+                margin: 2px 0 0 2px;
+            }
+        }
+    }
+    .job-action {
+        position: fixed;
+        bottom: 5px;
+        left: 50%;
+        transform: translate(-50%,0);
+        a {
+            width: 150px;
+        }
+    }
+    .job-head h4 {
+        font-size: 22px!important;
+        font-weight: unset!important;
+    }
+    .fix_title_detail {
+        color: $white-1;
+        position: fixed;
+        background: rgba(72,80,154,.9);
+        border-bottom: 1px solid $border;
+        left: 0;
+        top: 0;
+        padding: 0 15px 15px;
+        z-index: 1;
+        animation: fix_title_detail .5s;
+        animation-iteration-count: 1;
+        h4 {
+            margin-bottom: 2px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 90%;
+            a {
+                color: $white-1!important;
+            }
+        }
+    }
+    .card__box {
+        p {
+            span {
+                color: $primary;
+            }
+        }
+    }
+    .text-xs {
+        font-size: 11px!important;
+    }
+    .bg-pink {
+        background-color: $pink!important;
+    }
+    .bg-blue-dark {
+        background-color: $bg-dark-blue!important;
+    }
+    .btn-dark {
+        background: $bg-dark-blue;
+        color: $white-1!important;
+        border: 2px solid transparent!important;
+    }
+    .btn-sm {
+        font-size: 12px!important;
+        padding: .25rem .5rem!important;
+    }
+    @keyframes fix_title_detail{
+        0% {
+            top: -100px;
+        }
+        100% {
+            top: 0;
+        }
+    }
+}

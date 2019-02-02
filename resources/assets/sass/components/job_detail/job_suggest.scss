@@ -1,0 +1,16 @@
+.job_suggest {
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 14px;
+    float: left;
+    &-item {
+        border-bottom: 1px solid $grey-4;
+        p {
+            line-height: 1.2;
+            margin: 5px 0;
+        }
+    }
+    &-item:last-child {
+        border-bottom: none;
+    }
+}

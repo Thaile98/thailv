@@ -1,0 +1,29 @@
+.tt-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 100;
+    width: 100%;
+    margin-top: 3px!important;
+    border-radius: 5px!important;
+    box-shadow: 0 0 30px rgba(0,0,0,.1)!important;
+    background-color: $white-1;
+    .tt-dataset {
+        padding: 10px 20px!important;
+        .tt-selectable{
+            .search_item {
+                color: $grey-6!important;
+                text-decoration: none!important;
+                height: 33px!important;
+                display: block!important;
+                line-height: 24px!important;
+                text-overflow: ellipsis!important;
+                white-space: nowrap!important;
+                overflow: hidden!important;
+                cursor: pointer;
+            }:hover {
+                color: $pink!important;
+            }
+        }
+    }
+}

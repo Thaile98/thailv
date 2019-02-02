@@ -1,0 +1,67 @@
+.bc-content {
+    .detail--title h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .auth--info {
+    	.box-icon-info-auth {
+    		margin-bottom: 10px;
+    		span {
+    		    color: #666;
+    		    font-size: 12px;
+    		    margin-right: 10px;
+    		}
+    		.bc-auth img {
+    		    width: 18px;
+    		    height: 18px;
+    		    border-radius: 50%;
+    		    margin-top: -3px;
+    		}
+    	}
+    }
+    .detail--content {
+    	.content--post-desc {
+    	    font-weight: 600;
+    	    margin-bottom: 10px;
+    	}
+    	.content-post-detail {
+    	    overflow: hidden;
+    	    font-size: 15px;
+    	    text-align: justify;
+    	    h2 {
+    	    	font-size: 20px;
+    	    }
+            img {
+                max-width: 100%;
+            }
+    	}
+    	.text-post-next-prev {
+    	    display: flex;
+    	    justify-content: space-between;
+    	    border: 1px solid #f2f2f2;
+    	    padding: 10px;
+    	    background: #f2f2f2;
+    	    .next-prev-item:first-child {
+    	        text-align: left;
+    	        margin-right: 20px;
+    	    }
+    	    .next-prev-item {
+    	        flex: 2 48%;
+    	        text-align: right;
+    	        p {
+    	        	font-weight: 500;
+    	        	i {
+    	        	    font-weight: 500;
+    	        	}
+    	        }
+    	        a {
+    	            font-weight: 500;
+    	            color: #007bff;
+    	        }
+    	        a:hover {
+	        	    color: #0056b3;
+    	        }
+    	    }
+    	}
+    }
+}

@@ -1,0 +1,51 @@
+.form__search__content-mobile {
+	form {
+		margin-top: 0!important;
+	}
+	&-group {
+		width: 100%;
+		margin: 10px 0;
+		padding: 11.5px 0;
+	    position: relative;
+	    border-radius: 8px;
+	    border: none;
+	    color: $dark-grey-2;
+	    outline: none;
+	    background-color: $white-1;
+		i {
+		    color: $blue-grey-3;
+		    position: absolute;
+			top: 10px !important;
+			right: 20px;
+			font-size: 20px;
+		}
+		input {
+		    font-size: 15px;
+			margin-left: 10px;
+		    width: 85%;
+		    border: none;
+		    outline: none;
+		}
+	}
+	&-location {
+		i {
+			right: 24px;
+		}
+	}
+	&-button {
+		width: 100%;
+		button {
+			height: 37px;
+		    background-color: $pink;
+		    font-size: 14px;
+		    color: $white-1;
+		    border-radius: 8px;
+		    border: 0;
+		    outline: none;
+		    letter-spacing: 1px;
+		    i {
+		    	font-size: 15px;
+		    }
+		}
+	}
+}

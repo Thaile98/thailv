@@ -1,0 +1,16 @@
+{
+    "name": "Candidate",
+    "alias": "candidate",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Candidate\\Providers\\CandidateServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

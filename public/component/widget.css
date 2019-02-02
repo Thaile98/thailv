@@ -1,0 +1,55 @@
+@import url('master.css');
+
+.widget>div {
+	margin-top:15px
+}
+.widget .posted_widget a,
+.widget .type_widget a {
+	display:block;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	max-width:87%;
+	font-size:13px;
+	color:#555;
+	line-height:2;
+	font-weight:400;
+	padding:0;
+}
+.widget .posted_widget span,
+.widget .type_widget a .total-job {
+	position:absolute;
+	right:37px
+}
+
+.posted_widget {
+	float:left;
+	width:100%
+}
+
+.type_widget {
+	float:left;
+	width:100%
+}
+
+.widget h3 {
+	color:#333;
+	font-weight:600
+}
+
+.widget a .total-job {
+	font-weight:400!important
+}
+.la-arrow-circle-right:before {
+	content:"\F11D"
+}
+.la-arrow-circle-left:before {
+	content:"\F118"
+}
+.loadmore {
+	float:right;
+	font-size:13px;
+	color:#fb236a!important;
+	margin-top:10px;
+	cursor:pointer
+}

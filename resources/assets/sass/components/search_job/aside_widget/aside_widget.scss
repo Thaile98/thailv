@@ -1,0 +1,36 @@
+.aside__widget {
+    float: left;
+    width: 100%;
+    padding: 18px 0 18px 20px;
+	&-title {
+	    font-size: 16px;
+	    margin-bottom: 0;
+	    font-weight: 600!important;
+	}
+	&-group {
+		margin-top: 5px;
+		a.aside__widget-link {
+		    display: block;
+		    color: $dark-3;
+		    font-size: 13px;
+		    line-height: 2;
+	    	max-width: 80%;
+			span.total-job {
+			    float: right;
+			    position: absolute;
+			    right: 15px;
+			    font-weight: 400!important;
+			}
+		}
+		span.more.loadmore {
+		    float: right;
+		    font-size: 13px;
+		    color: $pink!important;
+		    margin: 10px 15px 0 0;
+		    cursor: pointer;
+		}
+	}
+}
+.aside__widget:first-child {
+    padding-top: 35px;
+}

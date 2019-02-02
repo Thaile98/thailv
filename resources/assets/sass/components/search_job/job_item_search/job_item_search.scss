@@ -1,0 +1,132 @@
+.job__list-item{
+	width: 100%;
+	padding: 15px 0;
+    border: 2px solid $white-1;
+    float: left;
+	position: relative;
+	transition: all .4s ease 0s;
+	&-thumb{
+		max-width: 130px;
+		width: 16.67%;
+		float: left;
+    	text-align: center;
+		img {
+			max-width: 110px;
+		    max-height: 80px;
+		    object-fit: contain;
+		    object-position: center center;
+		}
+	}
+	&-content{
+		width: 83%;
+		float: left;
+		h2.job__list-item-title {
+		    max-width: 100%;
+		    font-size: 18px;
+		    font-weight: 600!important;
+		    margin-bottom: 3px;
+		    line-height: 22px;
+			a {
+			    color: $black;
+			}
+		}
+		.job__list-item-company {
+		    max-width: 100%;
+			span {
+			    font-weight: 400;
+			    color: #26ae61!important;
+				font-size: 14px;
+			}
+		}
+		.job__list-item-info {
+		    font-size: 14px;
+		    display: table;
+		    margin-bottom: 0;
+		    line-height: 23px;
+		    .job__list-item-address {
+		    	max-width: 80%;
+		    }
+		    i.job__list-item-icon {
+		    	color: $blue-grey-3;
+			    font-size: 12px;
+		    }
+		    i.la-map-marker {
+		        font-size: 15px;
+		        margin-left: -3px;
+		    }
+		}
+		.job__list-item-teaser {
+		    font-size: 14px;
+		    display: table;
+		    margin-bottom: 0;
+		    line-height: 23px;
+		    margin-top: 5px;
+		    color: $dark-3;
+		}
+		.job__list-item-readmore {
+		    padding-top: 2px;
+		    width: 100%;
+		    font-size: 13px;
+			a.item-click-readmore {
+			    color: $blue-1;
+			    transition: all .4s ease 0s;
+			}
+			span {
+				padding-right: 5px;
+				color: $grey-1!important;
+    			font-size: 13px!important;
+			}
+		}
+	}
+	&-extra{
+		width: 27%;
+		float: right;
+		position: absolute;
+		right: 0;
+		bottom: 53%;
+		padding-right: 16px;
+	    -webkit-transform: translateY(50%);
+	    transform: translateY(50%);
+		.job__list-item-expiry-date{
+			position: absolute;
+		   	right: 17px;
+		    top: 57px;
+		    font-style: normal;
+		    font-size: 13px;
+		    color: $dark-grey-1;
+		}
+		.job__list-item-favorite{
+			position: absolute;
+		    right: 134px;
+		    top: 10px;
+		    span.job__list-item-favorite-add {
+		    	font-size: 20px;
+	    	    float: right;
+	    	    border: 1px solid $grey-5;
+	    	    border-radius: 100px;
+	    	    padding: 5px;
+	    	    display: table-cell;
+			    vertical-align: middle;
+			    color: $grey-1;
+			    line-height: 10px;
+			    text-align: center;
+			    cursor: pointer;
+		    }
+		}
+		.job__list-item-salary span {
+		    display: table-cell;
+		    vertical-align: middle;
+		    font-size: 12px;
+		    border: 1px solid;
+		    float: right;
+		    padding: 6px 0;
+		    border-radius: 100px;
+		    width: 108px;
+		    margin: 9px 0;
+		    text-align: center;
+		    color: $pink;
+		    border-color: $pink;
+		    font-weight: 700;
+		}
+	}
+}

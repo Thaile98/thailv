@@ -1,0 +1,116 @@
+section {
+    margin: 30px 0 150px 0;
+}
+#header {
+    z-index: 3;
+    background: $blue-dark-1;
+    padding-bottom: 9px;
+    padding-top: 15px;
+    
+}
+.job_detail {
+    &_item {
+        width: 100%;
+        margin-bottom: 20px;
+        float: left;
+        font-size: 14px;
+        line-height: 1;
+        &-crit {
+            float: left;
+            width: 20%;
+        }
+        &-param {
+            float: left;
+            width: 80%;
+        }
+        .job_detail-company-name {
+            color: $black;
+        }
+    }
+}
+
+.apply_job {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.job_company, .share_job, .apply_job, .more_job {
+    line-height: 1.5;
+    font-size: 14px;
+    width: 100%;
+    float: left;
+}
+.share_job {
+    &-label {
+        display: inline-block;
+    }
+    &-group {
+        display: inline-block;
+        a {
+            width: 30px;
+            height: 30px;
+            margin-left: 5px;
+            color: $white-1!important;
+            border-radius: 50%;
+            background: $share-icon;
+            transition: .3s;
+            justify-content: center;
+            align-items: center;
+            display: inline-flex;
+        }
+    }
+}
+.job_company {
+    .company-logo {
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+        img {
+            border: 2px solid $grey-3;
+            width: 130px;
+            height: 130px;
+        }
+    }
+    p {
+        margin-bottom: 0.5rem;
+    }
+}
+h1 {
+    font-size: 28px;
+    font-weight: 600!important;
+}
+
+#fixed_top {
+    display: none;
+    z-index: 999;
+    background-color: $white-1;
+    box-shadow: 0 0 30px rgba(0,0,0,.1);
+    transition: all 1s ease 0s;
+    transition: box-shadow .5s ease-out,-webkit-box-shadow .5s ease-out;
+    .fixed_top_job-title {
+        padding-top: 10px;
+        font-size: 14px;
+        p {
+            margin-bottom: 5px;
+        }
+    }
+}
+.display_block {
+    display: block!important;
+}
+.fixed-menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    animation: fix_menu .5s;
+    animation-iteration-count: 1;
+}
+@keyframes fix_menu {
+    0% {top: -30px;}
+    100% {top: 0;}
+}
+a:hover {
+    color: $pink;
+}
+a.underline-hover:hover{
+    text-decoration: underline!important;    
+}

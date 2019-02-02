@@ -1,0 +1,58 @@
+@import url('master.css');
+.form-search-header {
+	width:60%;
+	display:inline-block;
+	margin-left:8%
+}
+.form-search-header input {
+	color:#444
+}
+.form-search-header #input-search-text input {
+	width:335px!important;
+	height:44px;
+	padding-right:45px
+}
+.form-search-header #input-search-text i {
+	right:-50px;
+	top:9px!important
+}
+.form-search-header #input-search-text .tt-menu {
+	background-color:#fff;
+	width:100%
+}
+.form-search-header #input-location-text input {
+	width:300px!important;
+	margin-left:47px;
+	height:44px
+}
+.form-search-header #input-location-text .fa-map-marker {
+	right:-115px;
+	top:9px
+}
+.form-search-header #input-location-text .form-control .search-autocomplete-location {
+	margin-left:98px!important
+}
+.form-search-header #input-location-text .tt-menu {
+	background-color:#fff;
+	width:85.5%;
+	margin-left:49px
+}
+.form-search-header .box-icon-search {
+	width:100px;
+	margin-left:120px
+}
+.form-search-header .box-icon-search #btn-search-desktop {
+	background-color:#8b91dd
+}
+.form-search-header .box-icon-search button {
+	padding:9px 15px
+}
+.form-search-header .box-icon-search button i {
+	font-size:25px
+}
+.fa-map-marker:before {
+	content:"\F041"
+}
+.la-keyboard-o:before {
+	content:"\F256"
+}

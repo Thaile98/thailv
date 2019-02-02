@@ -1,0 +1,58 @@
+.job__list-item {
+	&-content {
+		h2.job__list-item-title a:hover{
+			text-decoration: none;
+			outline: 0;
+		}
+		.job__list-item-readmore {
+		    line-height: 23px;
+			h4 {
+			    font-size: 14px;
+			    color: $dark-3;
+			    margin: 5px 0;
+			    font-weight: 500;
+			}
+			a.item-click-readmore:hover{
+				text-decoration: underline;
+				color: $blue-2;
+			}
+			.infor-more {
+			    background: $grey-2;
+			    padding: 15px;
+			    width: 100%;
+			    margin-top: 5px;
+			    border: 1px solid $grey-3;
+			    position: relative;
+				ul {
+				    margin-bottom: 0;
+				    list-style: square;
+				    padding-left: 20px;
+				    max-height: 110px;
+				    overflow: scroll;
+				    overflow-x: hidden;
+				    li {
+				    	a {
+				    		color: $blue-3;
+				    	}
+				    }
+				}
+				span.close-info-more {
+				    color: $grey-1!important;
+				    padding-right: 5px;
+				    position: absolute;
+				    right: 15px;
+				    top: 10px;
+				    cursor: pointer;
+				}
+			}
+		}
+	}
+	.job__list-item-extra .job__list-item-favorite span.job__list-item-favorite-add.active {
+		border-color: $pink!important;
+    	color: $pink!important;
+	}
+}
+.job__list-item:hover{
+	box-shadow: 0 0 30px rgba(0,0,0,.1);
+    z-index: 1;
+}

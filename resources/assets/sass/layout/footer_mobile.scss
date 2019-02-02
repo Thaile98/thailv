@@ -1,0 +1,27 @@
+#action_box_mb {
+    display: block!important;
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+    background: $white-1;
+    border-top: 1px solid $grey-2;
+    .action_box-item {
+        display: flex;
+        padding: 5px 0!important;
+        a {
+            flex: 4 25%;
+            text-align: center;
+            color: $dark-3;
+            i {
+                display: block;
+                font-size: 20px;
+            }
+            span {
+                font-size: .9rem;
+            }
+        }
+        .active {
+            color: $xanh-tim;
+        }
+    }
+}

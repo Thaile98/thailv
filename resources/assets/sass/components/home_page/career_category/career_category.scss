@@ -1,0 +1,51 @@
+.career-category {
+    line-height: 1.4;
+    float: left;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    transition: all .4s ease 0s;
+    a {
+        padding-top: 20px;
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+        border-bottom: 1px solid $white-grey;
+        border-right: 1px solid $white-grey;
+        img {
+        	width: 80px;
+    	    height: 60px;
+        }
+        span {
+            margin-top: 7px;
+            float: left;
+            width: 100%;
+            font-size: 16px;
+            color: $dark-1;
+        }
+        p {
+        	color: $pink;
+            float: left;
+            width: 100%;
+            font-size: 14px;
+            margin: 0;
+            margin-top: 3px;
+        }
+    }
+}
+.cat-sec .row>div:last-child a {
+    border-right-color: $white-1;
+}
+.career-category:hover {
+    background: $white-1;
+    box-shadow: 0 0 25px rgba(0,0,0,.1);
+    border-radius: 8px;
+    width: 104%;
+    margin-left: -2%;
+    height: 102%;
+    z-index: 10;
+    a {
+    	border: none;
+    }
+}

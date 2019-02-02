@@ -1,0 +1,9 @@
+@import url('master.css');
+.menu-sec .logo-app-v2 a img {
+	width:140px;
+	height:50px;
+	margin-top:-6px
+}
+#header-search-job .logo-app-v2 a img {
+	margin-top:-9px
+}

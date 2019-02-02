@@ -1,0 +1,76 @@
+.job__box {
+    display: block;
+    padding: 20px 5px;
+    width: 100%;
+    padding: 15px 5px!important;
+    &-job {
+        position: relative;
+        h2 {
+            font-size: 16px!important;
+            font-weight: 600!important;
+            margin-bottom: 5px;
+            text-transform: capitalize;
+            width: 80%;
+            a {
+                color: $dark-3;
+            }
+        }
+        &-company {
+            color: $pink;
+            width: 80%!important;
+            font-size: 14px;
+        }
+        &-info {
+            color: $dark-3;
+            font-size: 13px;
+            margin-top: 10px;
+            span {
+                width: calc(100%/3);
+            }
+            span:nth-child(2) {
+                -webkit-box-flex: 2;
+                -ms-flex-positive: 2;
+                flex-grow: 2;
+                text-align: center;
+            }
+        }
+        &-action {
+            position: absolute;
+            top: 0;
+            right: -7px;
+            width: 50px;
+            margin: 5px 10px 2px;
+            .favorite {
+                position: absolute;
+                left: unset!important;
+                top: 0;
+                right: 5px;
+                -webkit-box-align: center;
+                align-items: center;
+                border: 1px solid $grey-5;
+                border-radius: 100px;
+                color: $grey-5;
+                cursor: pointer;
+                display: flex;
+                font-size: 16px;
+                -webkit-box-pack: center;
+                justify-content: center;
+                padding: 5px;
+            }
+            .active {
+                border-color: $pink!important;
+                color: $pink!important;
+            }
+        }
+        a{
+            color: inherit;
+        }
+    }
+}
+.job__box:not(:last-child) {
+    border-bottom: 1px solid $white-grey;
+}
+.job__box:hover {
+    box-shadow: 0 0 30px rgba(0,0,0,.1);
+    transition: box-shadow .5s ease-out,-webkit-box-shadow .5s ease-out;
+}

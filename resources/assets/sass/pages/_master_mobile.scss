@@ -1,0 +1,222 @@
+.no-scroll {
+    overflow: hidden;
+}
+hr {
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1px;
+}
+body {
+    line-height: 1.15;
+}
+.overlape {
+    display: none;
+}
+.column {
+    margin: 0;
+}
+.card {
+    padding: 0 10px!important;
+    margin: 10px 0 0 0;
+}
+p {
+    margin: 0;
+    color: $dark-3;
+    line-height: 1.5rem;
+}
+.mb-btn {
+    background-color: #4a4d8a;
+    border-radius: 5px;
+    color: $white-1;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    i {
+        float: left;
+        font-size: 20px;
+    }
+}
+.mb-btn-ntd {
+    background-color: $pink;
+}
+#mb_input_show {
+    .container {
+        padding: 0!important ;
+    }
+}
+.mb_input_show {
+    background-color: $white-1;
+    width: 100%;
+    border-bottom: 1px solid #e9e9e9;
+    line-height: 53px;
+    display: block;
+    height: 53px;
+    text-indent: 11px;
+    font-size: 14px;
+    color: #333;
+    .mb_search {
+        background: $grey-2;
+        i {
+            font-weight: 700;
+        }
+    }
+}
+.icon i {
+    color: $pink;
+    font-size: 18px;
+}
+
+.fix_menu_mb {
+    position: fixed;
+    top: 0;
+    animation: fix_menu_mb .5s;
+    animation-iteration-count: 1;
+    z-index: 3;
+}
+.fix_menu_mb_hide {
+    animation: fix_menu_mb_hide 1s;
+    animation-iteration-count: 1;
+}
+.form_search_mobile {
+    margin-top: 47px;
+    .inner-header {
+        padding-top: 0!important;
+    }
+}
+#main-menu .job-search-sec {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+#main-menu .job-search {
+    margin-bottom: 20px;
+}
+.job-search h1, .job-search span {
+    display: none;
+}
+#job-favorite-box {
+    background: #fff;
+    bottom: -10000px;
+    height: 100%;
+    overflow: auto;
+    padding: 70px 0px 80px;
+    position: fixed;
+    transition: all .5s ease-out;
+    width: 100%;
+    z-index: 2;
+}
+.container-fluid {
+    padding: 0;
+}
+.form-search {
+    padding: 0 !important;
+    margin-bottom: 10px !important;
+}
+@media (min-width: 425px) and (max-width: 768px){
+    .inner-header {
+        padding-top: 150px;
+    }
+    .job-search-sec {
+        top: 50%;
+    }
+}
+@media (max-width: 980px){
+    .column:first-child {
+        margin-top: 0;
+    }
+    .column {
+        float: left;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .inner-header {
+        padding-top: 100px;
+    }
+    .job-search-sec {
+        padding: 0 30px;
+        width: 100%;
+    }
+    .job-search form {
+        margin-top: 22px;
+    }
+    .inner-header.wform .job-field {
+        border-radius: 0 0;
+    }
+    .job-search .job-field {
+        margin-bottom: 15px;
+    }
+    .job-field span {
+        display: block!important;
+        width: 100%!important;
+    }
+}
+@media (max-width: 520px){
+    .job-search-sec {
+        float: left;
+        width: 100%;
+        position: static;
+        padding: 70px 20px;
+        transform: none;
+        background: $blue-grey-3;
+        background: linear-gradient(45deg,rgba(139,145,221,1) 0,rgba(16,25,93,1) 71%,rgba(16,25,93,1) 100%);
+        opacity: .9;
+        margin: 0;
+    }
+}
+.container {
+	padding: 0 15px!important;
+}
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    animation: fix_menu .5s;
+    width: 100%;
+    animation-iteration-count: 1;
+}
+.bms-overlay {
+    background: rgba(20,31,114,.6);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 999;
+}
+.text-default {
+    color: $dark-grey-1!important;
+}
+.text-white {
+    color: $white-1!important;
+}
+.jf-active {
+    bottom: 0!important;
+}
+ul {
+    list-style: outside none none;
+    margin: 0 0 30px;
+    padding: 0;
+    li {
+        color: $dark-2;
+        margin-bottom: 15px;
+        position: relative;
+    }
+}
+button {
+    outline: none;
+}
+b, strong {
+    font-weight: 600;
+}
+p {
+    font-size: 14px;
+}
+.block {
+    padding-bottom: 0!important;
+}
+.tt-menu {
+    width: 100%!important;
+}
+i, .card .card-title i {
+    display: inline-block;
+    cursor: pointer;
+}

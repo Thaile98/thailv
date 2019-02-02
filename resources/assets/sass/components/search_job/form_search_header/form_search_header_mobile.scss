@@ -1,0 +1,52 @@
+.form__search__header_mobile {
+	line-height: 1.5;
+	padding: 0 2px 0 15px;
+	width: 100%;
+	form {
+		margin-top: 0!important;
+	}
+	&-group {
+		width: 100%;
+		margin-bottom: 15px;
+		padding: 8px 0;
+	    position: relative;
+	    border-radius: 8px;
+	    border: none;
+	    color: $dark-grey-2;
+	    outline: none;
+	    background-color: $white-1;
+		i {
+		    color: $pink;
+		    position: absolute;
+			top: 5px !important;
+			right: 40px;
+			font-size: 27px;
+		}
+		input {
+		    font-size: 14px;
+			margin-left: 30px;
+		    width: 74%;
+		    border: none;
+		    outline: none;
+		}
+	}
+	&-button {
+		padding-right: 13px;
+		button {
+			height: 40px;
+		    background-color: $blue-grey-3;
+		    font-size: 13px;
+		    color: $white-1;
+		    border-radius: 4px;
+		    border: 0;
+		    letter-spacing: 1px;
+		    transition: all .4s ease 0s;
+		    i {
+		    	font-size: 15px;
+		    }
+		}
+		button:hover {
+			background-color: $pink;
+		}
+	}
+}

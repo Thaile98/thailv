@@ -1,0 +1,105 @@
+@import url('master.css');
+
+.job-listings-sec .job-listing {
+	padding:15px 0
+}
+.job-listings-sec.no-border .job-listing {
+	border:2px solid #fff
+}
+.job-list-modern .job-listing.wtabs {
+	margin:0;
+	margin-top:0;
+	border-radius:0 0;
+	border-left-color:#fff;
+	border-right-color:#fff;
+	border-top-color:#edeff7;
+	border-bottom-color:#edeff7;
+	margin-top:-1px;
+	padding:30px 0
+}
+.job-listing.wtabs {
+	border:1px solid #ebefef;
+	margin-top:30px;
+	border-radius:8px;
+	display:inherit;
+	text-align:left;
+	position:relative
+}
+.job-listing.wtabs .job-title-sec {
+	float:left;
+	width:70%
+}
+.job-title-sec h2 {
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis
+}
+.job-listing h2,
+.job_list .job-listings-sec h2 {
+	font-size:18px;
+	font-weight:600;
+	font-family:Quicksand;
+	margin-bottom:7px;
+	line-height:22px
+}
+.job-title-sec {
+	display:table-cell;
+	vertical-align:middle;
+	width:60%
+}
+.c-logo {
+    float: left;
+    width: 130px;
+    text-align: center;
+}
+.job-title-sec .job-item-mb-ca {
+	color:#fb236a!important;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	overflow:hidden
+}
+.job-listing.wtabs .job-title-sec .job-item-address {
+	display:block;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden
+}
+.job-listing.wtabs .job-title-sec>span {
+	color:#26ae61;
+	display:table;
+	float:none
+}
+.job-listing.wtabs .job-title-sec .job-item-address strong {
+	font-weight:400
+}
+.job_list .job-listings-sec .job-item-content {
+	font-size:13px;
+	display:table;
+	margin-bottom:0;
+	line-height:23px;
+	margin-top:10px
+}
+.job_list .job-listings-sec .job-item-content {
+	text-overflow:ellipsis;
+	overflow:hidden
+}
+.job-listings-sec .job-listing .icon-job-item {
+	color:#8b91dd;
+	font-size:12px
+}
+.job-listings-sec .job-listing .icon-job-item.la-map-marker {
+	font-size:15px;
+	margin-left:-3px
+}
+.la-map-marker:before {
+	content:"\F27D"
+}
+.job_list .job-listings-sec .job-item-content span {
+	color:#555
+}
+.job-title-sec span {
+	float:left;
+	font-size:14px;
+	margin-top:1px
+}

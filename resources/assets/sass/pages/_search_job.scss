@@ -1,0 +1,153 @@
+#header {
+    z-index: 3;
+	position:fixed;
+    top: 0;
+	left: 0;
+    background: $blue-dark-1;
+    padding-bottom: 6px;
+	.menu-header {
+	    margin-top: 15px;
+	    margin-bottom: 3px;
+	    .logo {
+	    	max-width: 18.75%;
+	    }
+    	.form__search__header {
+    		width: 100%;
+    		padding: 0!important;
+	    	.form__search__header-group {
+	    	    margin-right: 10px!important;
+	    	}
+	    	.form__search__header-location {
+	    	    width: 40%;
+	    	}
+	    	.form__search__header-keyword {
+	    	    width: 48%;
+	    	}
+	    	.form__search__header-button {
+	    		width: 9%;
+	    	}
+    	}
+    	.profile__header {
+    		right: 15px!important;
+    	}
+	}
+}
+#search-job {
+	margin: 70px 0 60px 0;
+	float: left;
+	position: relative;
+	width: 100%;
+	.search__job-listing {
+		max-width: 50%;
+		padding: 0;
+	}
+	.search__job-aside {
+		border-right: 2px solid $grey-4;
+		max-width: 18.75%;
+		padding-right: 0;
+		.search__hitory {
+			float: left;
+		    width: 100%;
+		    padding: 35px 10px 18px 20px;
+			font-size: 14px;
+			&-heading {
+				margin-bottom: 10px;
+			    font-weight: 600;
+			}
+			&-list {
+				&-item {
+					margin-bottom: 5px;
+					list-style-type: none;
+				}
+			}
+			a {
+				color: $pink;
+			}
+		}
+	}
+}
+.job__list-intro-cv {
+	margin-top: 30px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid $white-grey-2;
+    strong i {
+	    color: $yellow;
+	}
+	&-link {
+		margin-left: 5px;
+	    border: 1px solid $pink;
+	    border-radius: 60px;
+	    display: inline-block;
+	    font-size: 14px;
+	    font-weight: 400;
+	    line-height: 1.5;
+	    padding: .375rem .75rem;
+	    text-align: center;
+	    background: $pink;
+    	color: $white-1;
+	}
+}
+.job__list-total-select {
+	margin-bottom: 15px;
+    padding: 0;
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid $white-grey-2;
+    .job-search-title {
+    	margin-top: 30px;
+    	h1 {
+	        font-size: 20px;
+	    }
+    }
+    .total__select-filterbar {
+	    margin-top: 5px;
+	    float: left;
+	    width: 100%;
+	    margin-bottom: 5px;
+	    h5 {
+	    	float: left;
+		    margin: 0;
+		    display: inline;
+		    width: 48%!important;
+		    margin-top: 0!important;
+		    font-size: 14px!important;
+		    font-weight: 400!important;
+		    color: $dark-grey-3;
+		    line-height: 33px;
+		    b {
+		        font-weight: 700;
+		        color: $pink;
+		    }
+		}
+		.filterbar-right {
+		    float:  right;
+			span.show-text-alert {
+			    float: left;
+			    font-size: 14px;
+			    line-height: 33px;
+			    color: $dark-3;
+			    margin-right: 10px;
+			}
+			a.active_nav {
+			    color: $pink!important;
+			    font-weight: 700;
+			}
+			b {
+			    font-weight: 700;
+			    color: $pink;
+			}
+			a {
+			    line-height: 33px;
+			    font-size: 14px;
+			    color: $black;
+			}
+		}
+
+	}
+}
+.show{
+	display: block!important;
+}
+.hide{
+	display: none!important;
+}

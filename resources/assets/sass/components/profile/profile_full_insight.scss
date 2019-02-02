@@ -1,0 +1,143 @@
+.profile__header {
+	&-btn-dropdown {
+		ul {
+			z-index: 2;
+			position:absolute;
+			right:0;
+			top:100%;
+			margin:0;
+			background:$white-1;
+			box-shadow:0 0 40px rgba(0,0,0,.1);
+			border-radius:8px;
+			margin-top:30px;
+			width:240px;
+			padding:20px 3px;
+			li {
+				float:left;
+				width:100%;
+				margin:4px 0;
+				list-style: none;
+				a {
+					float:left;
+					width:100%;
+					font-size:13px;
+					color: $dark-grey-1;
+					line-height:30px;
+					padding-left:24px;
+					transition:all .4s ease 0s;
+					i {
+						float:left;
+						font-size:22px;
+						color:$blue-grey-3;
+						margin-right:3px;
+						width:30px;
+						line-height:30px;
+					}
+				}
+				a:hover {
+					padding-left:30px;
+					i {
+						color: $pink;
+					}
+				}
+			}
+		}
+		ul::before {
+			position:absolute;
+			right:40px;
+			top:-6px;
+			width:14px;
+			height:14px;
+			background:$white-1;
+			content:"";
+			transform:rotate(45deg);
+			border-radius:2px;
+		}
+	}
+    .wishlist__dropsec {
+		&-dropdown {
+		    position: absolute;
+	        right: -30px;
+	        width: 360px;
+	        background: $white-1;
+	        border-radius: 8px;
+	        top: 100%;
+	        margin-top: 30px;
+	        box-shadow: 0 0 30px rgba(0,0,0,.1);
+	        padding: 20px 15px;
+	        ul {
+	            height: 243px;
+	            float: left;
+	            width: 100%;
+	            margin: 0;
+	            overflow-y: auto;
+	            li {
+	                border-bottom: 1px solid $grey-2;
+	                margin-bottom: 12px;
+	                margin-right: 15px;
+	                .fav-title {
+	                	position: relative;
+	                    font-size: 14px;
+	                    margin-bottom: 5px;
+	                    width: 90%;
+	                    a {
+	                    	color: #212529!important;
+	                        display: block;
+	                        overflow: hidden;
+	                        text-overflow: ellipsis;
+	                        white-space: nowrap;
+	                        width: 93%;
+	                    }
+	                    .button-fav-del {
+	                        color: $pink;
+	                        cursor: pointer;
+	                        left: 298px;
+	                        opacity: 1;
+	                        position: absolute;
+	                        top: 0;
+	                        transition: opacity .35s ease;
+
+	                    }
+	                }
+	                .fav-sa {
+	                    display: flex;
+	                    margin-bottom: -15px;
+	                    .fav-salary {
+	                        height: 38px!important;
+	                        color: $pink;
+	                        padding-left: 0;
+	                    }
+	                    .fav-address {
+	                        color: $blue-grey-3!important;
+	                        float: right;
+	                        margin-right: 20px;
+	                        text-align: right;
+	                    }
+	                }
+	                .fav-address, .fav-font, .fav-salary {
+	                    font-size: 14px!important;
+	                    font-weight: 500;
+	                    line-height: 22px;
+	                    margin-bottom: 7px;
+	                    overflow: hidden;
+	                    text-overflow: ellipsis;
+	                    white-space: nowrap;
+	                    width: 50%!important;
+	                }
+	            }
+	        }
+		}
+		&-dropdown::before {
+		    position: absolute;
+		    right: 43px;
+		    top: -6px;
+		    width: 15px;
+		    height: 15px;
+		    content: "";
+		    z-index: 1;
+		    background: $white-1;
+		    transform: rotate(45deg);
+		    border-radius: 2px;
+		}
+	}
+}
